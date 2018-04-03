@@ -60,10 +60,25 @@ await server.register({
 ```
 
 
+## Plugin Registration Options
+The following plugin options allow you to customize the default behavior of `hapi-request-user`:
+
+- **enabled**: `(boolean)`, default: `true` — by default, the plugin is enabled and decorates `request.user` with the authenticated user credentials
+
+```js
+await server.register({
+  plugin: require('hapi-request-user'),
+  options: {
+    enabled: true
+  }
+})
+```
+
+
 ## Route Handler Options
 The following plugin options on individual route handlers allow you to customize the behavior of `hapi-request-user`:
 
-- **enabled**: `(boolean)` — tells the plugin to disable (`false`) request.user decoration for this route handler
+- **enabled**: `(boolean)` — tells the plugin to disable (`false`) `request.user` decoration for this route handler
 
 The plugin configuration can be customized for single routes using the `hapi-request-user` key:
 
