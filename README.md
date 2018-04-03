@@ -20,6 +20,18 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 ## Introduction
 A hapi plugin that shortcuts access to the authenticated user from `request.auth.credentials` to `request.user`.
 
+Access the authenticated user in route request lifecycle methods, like this:
+
+```js
+(request, h) => {
+  const user = request.user
+
+  // use the user object
+
+  return { your: 'value' }
+}
+```
+
 
 ## Requirements
 This plugin requires **hapi v17** (or later) and uses async/await which requires **Node.js v8 or newer**.
