@@ -1,0 +1,45 @@
+{
+  "name": "hapi-request-user",
+  "description": "hapi plugin that shortcuts request.auth.credentials to request.user",
+  "version": "1.0.0",
+  "author": "Future Studio <info@futurestud.io>",
+  "bugs": {
+    "url": "https://github.com/fs-opensource/hapi-request-user/issues"
+  },
+  "devDependencies": {
+    "code": "~5.2.0",
+    "eslint-config-standard": "~11.0.0",
+    "eslint-plugin-import": "~2.10.0",
+    "eslint-plugin-node": "~6.0.1",
+    "eslint-plugin-promise": "~3.7.0",
+    "eslint-plugin-standard": "~3.0.1",
+    "hapi": "~17.3.1",
+    "husky": "~0.14.3",
+    "lab": "~15.4.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/fs-opensource/hapi-request-user#readme",
+  "keywords": [
+    "developer",
+    "hapi",
+    "hapijs",
+    "hapi.js",
+    "plugin",
+    "hapi auth",
+    "hapi plugin",
+    "futurestudio",
+    "authentication"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fs-opensource/hapi-request-user.git"
+  },
+  "scripts": {
+    "test": "lab --assert code --leaks --coverage --lint",
+    "prepush": "npm test"
+  }
+}
