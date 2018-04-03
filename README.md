@@ -1,4 +1,5 @@
-<p align="center">
+<p align="center">4
+  <img height="256" src="https://raw.githubusercontent.com/fs-opensource/hapi-request-user/master/media/hapi-request-user.png" alt="hapi-request-user logo">
 </p>
 
 <p align="center">
