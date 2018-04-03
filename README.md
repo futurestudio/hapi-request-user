@@ -32,6 +32,8 @@ Access the authenticated user in request lifecycle methods, like this:
 
 
 ## Requirements
+> **hapi v17** and **Node.js v8 (or newer)**
+
 This plugin requires **hapi v17** (or later) and uses async/await which requires **Node.js v8 or newer**.
 
 
