@@ -24,11 +24,9 @@ Access the authenticated user in route request lifecycle methods, like this:
 
 ```js
 (request, h) => {
-  const user = request.user
+  const user = request.user  // instead of "request.auth.credentials"
 
   // use the user object
-
-  return { your: 'value' }
 }
 ```
 
