@@ -1,12 +1,11 @@
 <div align="center">
   <img width="471" style="max-width:100%;" src="https://raw.githubusercontent.com/fs-opensource/hapi-request-user/master/media/hapi-request-user.png" alt="hapi-request-user logo">
-</p>
 
   <br/>
   <br/>
-
+  
   <p>
-  hapi plugin that shortcuts <code>request.auth.credentials</code> to <code>request.user</code>
+    hapi plugin that shortcuts “request.auth.credentials” to “request.user”
   </p>
   <br/>
   <p>
