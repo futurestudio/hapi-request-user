@@ -19,6 +19,8 @@
     <a href="https://travis-ci.org/fs-opensource/hapi-request-user"><img src="https://camo.githubusercontent.com/9f56ef242c6f588f74f39f0bd61c1acd34d853af/68747470733a2f2f7472617669732d63692e6f72672f66732d6f70656e736f757263652f686170692d67656f2d6c6f636174652e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/fs-opensource/hapi-request-user.svg?branch=master" style="max-width:100%;"></a>
     <a href="https://snyk.io/test/github/fs-opensource/hapi-request-user"><img src="https://snyk.io/test/github/fs-opensource/hapi-request-user/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/fs-opensource/hapi-request-user" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-request-user"><img src="https://img.shields.io/npm/v/hapi-request-user.svg" alt="hapi-request-user Version" data-canonical-src="https://img.shields.io/npm/v/hapi-request-user.svg" style="max-width:100%;"></a>
+    <a href="https://greenkeeper.io/" rel="nofollow" class="rich-diff-level-one"><img src="https://camo.githubusercontent.com/1f8838747ba1456c4d00e8102826bf8833e10217/68747470733a2f2f6261646765732e677265656e6b65657065722e696f2f66732d6f70656e736f757263652f686170692d726571756573742d757365722e737667" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/fs-opensource/hapi-request-user.svg" style="max-width:100%;"></a>
+
   </p>
   <p>
     <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
@@ -26,8 +28,6 @@
 </div>
 
 ------
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/fs-opensource/hapi-request-user.svg)](https://greenkeeper.io/)
 
 <p align="center"><sup>Development of this hapi plugin is supported by <a href="https://futurestud.io">Future Studio University 🚀</a></sup>
 <br><b>
