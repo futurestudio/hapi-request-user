@@ -32,8 +32,11 @@ describe('add-user-to-request register plugin', () => {
     const request = {
       url: route.path,
       method: route.method,
-      credentials: {
-        email: 'marcus@futurestud.io'
+      auth: {
+        strategy: 'default',
+        credentials: {
+          email: 'marcus@futurestud.io'
+        }
       }
     }
 

@@ -39,8 +39,11 @@ describe('disabled on routes,', () => {
     const request = {
       url: route.path,
       method: route.method,
-      credentials: {
-        email: 'marcus@futurestud.io'
+      auth: {
+        strategy: 'default',
+        credentials: {
+          email: 'marcus@futurestud.io'
+        }
       }
     }
 
@@ -72,8 +75,11 @@ describe('disabled on routes,', () => {
     const request = {
       url: route.path,
       method: route.method,
-      credentials: {
-        email: 'marcus@futurestud.io'
+      auth: {
+        strategy: 'default',
+        credentials: {
+          email: 'marcus@futurestud.io'
+        }
       }
     }
 
