@@ -1,7 +1,7 @@
 {
   "name": "hapi-request-user",
   "description": "hapi plugin that shortcuts request.auth.credentials to request.user",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Future Studio <info@futurestud.io>",
   "bugs": {
     "url": "https://github.com/fs-opensource/hapi-request-user/issues"
