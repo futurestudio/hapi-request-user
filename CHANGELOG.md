@@ -1,9 +1,10 @@
 # Changelog
 
-## [Unreleased]
 
-### Changed
-- tba.
+## [1.0.2](https://github.com/fs-opensource/hapi-request-user/compare/v1.0.1...v1.0.2) - 2019-01-22
+
+### Updated
+- fix tests for hapi 18 (no breaking change between hapi 17 and 18)
 
 
 ## [1.0.1](https://github.com/fs-opensource/hapi-request-user/compare/v1.0.0...v1.0.1) - 2018-08-21
