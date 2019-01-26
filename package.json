@@ -4,7 +4,7 @@
   "version": "1.0.2",
   "author": "Future Studio <info@futurestud.io>",
   "bugs": {
-    "url": "https://github.com/fs-opensource/hapi-request-user/issues"
+    "url": "https://github.com/futurestudio/hapi-request-user/issues"
   },
   "devDependencies": {
     "code": "~5.2.4",
@@ -21,7 +21,7 @@
   "engines": {
     "node": ">=8"
   },
-  "homepage": "https://github.com/fs-opensource/hapi-request-user#readme",
+  "homepage": "https://github.com/futurestudio/hapi-request-user#readme",
   "keywords": [
     "developer",
     "hapi",
@@ -37,7 +37,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fs-opensource/hapi-request-user.git"
+    "url": "git+https://github.com/futurestudio/hapi-request-user.git"
   },
   "scripts": {
     "test": "lab --assert code --leaks --coverage --lint",
