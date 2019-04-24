@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [2.0.0](https://github.com/futurestudio/hapi-request-user/compare/v1.0.3...v2.0.0) - 2019-04-24
+
+### Updated
+- bump dependencies
+- update to hapi scoped dependencies
+
+### Deleted
+- removed all plugin options because they’re not necessary (`enabled` was the only option)
+
+
 ## [1.0.3](https://github.com/futurestudio/hapi-request-user/compare/v1.0.2...v1.0.3) - 2019-01-26
 
 ### Updated
