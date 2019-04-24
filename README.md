@@ -11,7 +11,6 @@
   <p>
     <a href="#installation"><strong>Installation</strong></a> ·
     <a href="#usage"><strong>Usage</strong></a> ·
-    <a href="#plugin-registration-options"><strong>Plugin Options</strong></a>
   </p>
   <br/>
   <br/>
@@ -43,10 +42,12 @@ A hapi plugin that shortcuts access to the authenticated user from `request.auth
 Access the authenticated user in request lifecycle methods, like this:
 
 ```js
-(request, h) => {
-  const user = request.user  // instead of "request.auth.credentials"
-
-  // use the user object
+{
+  method: 'GET',
+  path: '/authenticated-user',
+  handler: (request, h) => {
+    return request.user  // instead of "request.auth.credentials"
+  }
 }
 ```
 
@@ -61,71 +62,16 @@ This plugin requires **hapi v17** (or later) and uses async/await which requires
 Add `hapi-request-user` as a dependency to your project:
 
 ```bash
-# NPM v5 users, this way is yours
 npm i hapi-request-user
-
-# you’re using NPM v4:
-npm i -S hapi-request-user
-
 ```
 
 
 ## Usage
-**`hapi-request-user` is enabled by default.**
-
-The most straight forward way to register the `hapi-request-user` plugin:
+Register the `hapi-request-user` plugin and you’re done:
 
 ```js
 await server.register({
   plugin: require('hapi-request-user'),
-})
-```
-
-
-## Plugin Registration Options
-The following plugin options allow you to customize the default behavior of `hapi-request-user`:
-
-- **enabled**: `(boolean)`, default: `true` — by default, the plugin is enabled and decorates `request.user` with the authenticated user credentials
-
-```js
-await server.register({
-  plugin: require('hapi-request-user'),
-  options: {
-    enabled: true
-  }
-})
-```
-
-
-## Route Handler Options
-The following plugin options on individual route handlers allow you to customize the behavior of `hapi-request-user`:
-
-- **enabled**: `(boolean)` — tells the plugin to disable (`false`) `request.user` decoration for this route handler
-
-The plugin configuration can be customized for single routes using the `hapi-request-user` key:
-
-```js
-server.register({
-  plugin: require('hapi-request-user') // enabled by default
-})
-
-// Within your route handler functions, you can access the location like this
-server.route({
-  method: 'GET',
-  path: '/',
-  config: {
-    plugins: {
-      'hapi-request-user': {
-        enabled: false
-      }
-    },
-    handler: (request, h) => {
-      const user = request.user
-      // "user" will be undefined when disabling "hapi-request-user"
-
-      return { your: 'value' }
-    }
-  }
 })
 ```
 
