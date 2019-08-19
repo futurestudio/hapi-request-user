@@ -6,6 +6,12 @@
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-request-user/issues"
   },
+  "contributors": [
+    {
+      "name": "Marcus Poehls",
+      "email": "marcus@futurestud.io"
+    }
+  ],
   "devDependencies": {
     "@hapi/code": "~6.0.0",
     "@hapi/hapi": "~18.3.1",
