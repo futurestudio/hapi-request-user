@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [2.1.0](https://github.com/futurestudio/hapi-request-user/compare/v1.0.3...v2.0.0) - 2019-10-17
+
+### Added
+- basic TypeScript declarations in `lib/index.d.ts`
+- Test Node.js versions `8, 10, 12, node` on Travis
+
+### Updated
+- bump dependencies
+- Readme: refine examples
+
+
 ## [2.0.0](https://github.com/futurestudio/hapi-request-user/compare/v1.0.3...v2.0.0) - 2019-04-24
 
 ### Updated
