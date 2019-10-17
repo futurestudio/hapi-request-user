@@ -2,16 +2,10 @@
   "name": "hapi-request-user",
   "description": "hapi plugin that shortcuts request.auth.credentials to request.user",
   "version": "2.0.0",
-  "author": "Future Studio <info@futurestud.io>",
+  "author": "Marcus Pöhls <marcus@futurestud.io>",
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-request-user/issues"
   },
-  "contributors": [
-    {
-      "name": "Marcus Poehls",
-      "email": "marcus@futurestud.io"
-    }
-  ],
   "devDependencies": {
     "@hapi/code": "~7.0.0",
     "@hapi/hapi": "~18.4.0",
@@ -41,6 +35,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurestudio/hapi-request-user.git"
