@@ -16,11 +16,8 @@
   <br/>
   <p>
     <a href="https://travis-ci.org/futurestudio/hapi-request-user"><img src="https://travis-ci.org/futurestudio/hapi-request-user.svg?branch=master" alt="Build Status" data-canonical-src="https://travis-ci.org/futurestudio/hapi-request-user.svg?branch=master" style="max-width:100%;"></a>
-    <a href="https://snyk.io/test/github/futurestudio/hapi-request-user"><img src="https://snyk.io/test/github/futurestudio/hapi-request-user/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-request-user" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-request-user"><img src="https://img.shields.io/npm/v/hapi-request-user.svg" alt="hapi-request-user Version" data-canonical-src="https://img.shields.io/npm/v/hapi-request-user.svg" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-request-user"><img src="https://img.shields.io/npm/dm/hapi-request-user.svg" alt="Monthly downloads"></a>
-    <a href="https://greenkeeper.io/" rel="nofollow" class="rich-diff-level-one"><img src="https://badges.greenkeeper.io/futurestudio/hapi-request-user.svg" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/futurestudio/hapi-request-user.svg" style="max-width:100%;"></a>
-
   </p>
   <p>
     <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
