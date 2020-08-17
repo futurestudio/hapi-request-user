@@ -7,10 +7,10 @@
     "url": "https://github.com/futurestudio/hapi-request-user/issues"
   },
   "devDependencies": {
-    "@hapi/code": "~7.0.0",
-    "@hapi/hapi": "~18.4.1",
-    "@hapi/lab": "~21.0.0",
-    "eslint": "~6.8.0",
+    "@hapi/code": "~8.0.2",
+    "@hapi/hapi": "~20.0.0",
+    "@hapi/lab": "~23.0.0",
+    "eslint": "~7.7.0",
     "eslint-config-standard": "~14.1.1",
     "eslint-plugin-import": "~2.22.0",
     "eslint-plugin-node": "~11.1.0",
@@ -23,19 +23,21 @@
   },
   "homepage": "https://github.com/futurestudio/hapi-request-user#readme",
   "keywords": [
-    "developer",
     "hapi",
     "hapijs",
     "hapi.js",
     "plugin",
+    "hapi user",
     "hapi auth",
+    "hapi authenthication",
     "hapi plugin",
     "futurestudio",
+    "user",
     "authentication"
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "typings",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurestudio/hapi-request-user.git"
