@@ -1,7 +1,18 @@
 # Changelog
 
 
-## [2.1.0](https://github.com/futurestudio/hapi-request-user/compare/v1.0.3...v2.0.0) - 2019-10-17
+## [2.2.0](https://github.com/futurestudio/hapi-request-user/compare/v2.1.0...v2.2.0) - 2020-08-17
+
+### Added
+- moved TypeScript definitions to `typings` directory
+- refined TypeScript definitions to show `request.user` in IntelliSense
+
+### Updated
+- bump dependencies
+- Test in Node.js `12, 14, node` because of hapi v20
+
+
+## [2.1.0](https://github.com/futurestudio/hapi-request-user/compare/v2.0.0...v2.1.0) - 2019-10-17
 
 ### Added
 - basic TypeScript declarations in `lib/index.d.ts`
