@@ -3,6 +3,7 @@
 const Lab = require('@hapi/lab')
 const Code = require('@hapi/code')
 const Hapi = require('@hapi/hapi')
+const HapiRequestUser = require('../lib/index')
 
 const server = new Hapi.Server()
 
@@ -10,25 +11,21 @@ const { describe, test, before } = (exports.lab = Lab.script())
 
 describe('add-user-to-request register plugin', () => {
   before(async () => {
-    await server.register({
-      plugin: require('../lib/index')
-    })
+    await server.register(HapiRequestUser)
   })
 
   test('test plugin', async () => {
-    const route = {
+    server.route({
       path: '/',
       method: 'GET',
       handler: request => {
         return request.user
       }
-    }
-
-    server.route(route)
+    })
 
     const request = {
-      url: route.path,
-      method: route.method,
+      method: 'GET',
+      url: '/',
       auth: {
         strategy: 'default',
         credentials: {
@@ -38,7 +35,7 @@ describe('add-user-to-request register plugin', () => {
     }
 
     const response = await server.inject(request)
-    const payload = JSON.parse(response.payload || '{}')
+    const payload = response.result || {}
 
     Code.expect(response.statusCode).to.equal(200)
     Code.expect(payload.email).to.equal('marcus@futurestud.io')
